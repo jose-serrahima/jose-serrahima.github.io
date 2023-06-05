@@ -5,8 +5,8 @@ theme:
   language: es
   locale: es
   logo: images/2.jpeg
-  #name: material
-  name: readthedocs
+  name: material
+  #name: readthedocs
   palette:
     - scheme: default
       primary: blue grey

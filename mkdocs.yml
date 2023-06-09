@@ -1,5 +1,5 @@
 site_name: Portfolio de José Serrahima Ezquerro
-repo_url: https://gitlab.com/example/repository/
+repo_url: https://gitlab.com/jose-serrahima/portfolio
 repo_name: Portfolio
 theme:
   language: es
@@ -9,14 +9,14 @@ theme:
   #name: readthedocs
   palette:
     - scheme: default
-      primary: blue grey
+      primary: black
       accent: deep orange
       toggle:
         icon: material/lightbulb 
         name: Cambiar a oscuro
     # Palette toggle for dark mode
     - scheme: slate
-      primary: blue grey
+      primary: black
       accent: deep orange
       toggle:
         icon: material/lightbulb-outline
@@ -30,11 +30,13 @@ plugins:
       lang: es
 markdown_extensions:
   - footnotes
-extra:
-  alternate:
-    - name: Castellano
-      link: /es
-      lang: es
-    - name: English
-      link: /en
-      lang: en
+#extra:
+#  alternate:
+#    - name: Castellano
+#      link: /es
+#      lang: es
+#    - name: English
+#      link: /en
+#      lang: en
+extra_css:
+  - stylesheets/extra.css
